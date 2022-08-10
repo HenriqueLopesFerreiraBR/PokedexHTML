@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(to bottom, #6ab7f5, #fff);
+  min-height: 100vh;
+}
+
+main {
+  display: inline-block;
+  margin-top: 2%;
+  padding: 15px;
+  position: relative;
+
+}
+
+.pokedex {
+  width: 100%;
+  max-width: 425px;
+  border-radius: 8px;
+}
+
+.pokemon_image {
+  position: absolute;
+  bottom: 40%;
+  left: 15%;
+  width: 23%;
+  height: 23%;
+}
+
+.pokemon_data {
+  align-items: center;
+  width: 38%;
+  height: 13%;
+
+  position: absolute;
+  font-weight: 600;
+  color: rgb(121, 121, 121);
+  top: 65%;
+  right: 55%;
+  font-size: 130%;
+}
+
+.pokemon_name {
+  color: rgb(41, 39, 39);
+}
+
+.pokemon_form {
+  position: absolute;
+  width: 45%;
+  top: 25%;
+  left: 53%;
+}
+
+.Input_search {
+  width: 81%;
+  padding: 2%;
+  font-size: 11px;
+  border-radius: 5px;
+}
+.buttons {
+  position: absolute;
+  width: 40%;
+  top: 85%;
+  left: 56%;
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  width: 45%;
+  border: 2px, solid;
+  border-radius: 5px;
+  box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+}
+
+.button:active {
+  box-shadow: inset -4px 4px 0 #222;
+}
